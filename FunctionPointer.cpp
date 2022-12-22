@@ -45,7 +45,7 @@ int main() {
         std::cout << "Enter B: ";
         std::cin >> b;
 
-        std::printf("%d\n", (ptr->*fxn)(a, b));
+        std::printf("%d\n", (ptr->*fxn)(a, b));    //hi dude, this line has a error. the error is "printf is not member of std"..
     }
 
     if (ptr != NULL) {
